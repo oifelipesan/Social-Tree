@@ -71,6 +71,7 @@ body {
 	padding: 12px;
 	color: var(--purple);
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .social {

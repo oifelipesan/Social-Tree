@@ -51,13 +51,12 @@ body {
 	font-weight: 300;
 	margin-top: 15px;
 	margin-bottom: 33px;
+	color: var(--purple);
 }
 
 .nav li {
 	width: 326px;
 	height: 49px;
-	border: solid 2px var(--purple);
-	border-radius: 4px;
 	text-align: center;
 	margin-top: 16px;
 }
@@ -69,9 +68,16 @@ body {
 .nav li a {
 	display: block;
 	padding: 12px;
+	border: solid 2px var(--purple);
+	border-radius: 4px;
 	color: var(--purple);
 	font-weight: 600;
 	text-transform: uppercase;
+}
+
+.nav li a:hover {
+	background-color: var(--purple);
+	color: var(--body-bg-color);
 }
 
 .social {
